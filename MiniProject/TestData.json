@@ -1,0 +1,77 @@
+{
+  "testdata": [
+    {
+      "testname": "LoginTest",
+      "data": [
+        {
+          "runmode": "Y",
+          "browser": "chrome",
+          "username": "abc@mail.com",
+          "password": "pass123"
+        },
+        {
+          "runmode": "N",
+          "browser": "Brave",
+          "username": "abc@mail.com",
+          "password": "pass123"
+        },
+        {
+          "runmode": "Y",
+          "browser": "TOR",
+          "username": "abc@mail.com",
+          "password": "pass123"
+        }
+      ]
+    },
+    {
+      "testname": "PurchaseProduct",
+      "data": [
+        {
+          "runmode": "Y",
+          "browser": "chrome",
+          "product": "MacBook",
+          "mincost": "5000",
+          "maxcost": "50000"
+        },
+        {
+          "runmode": "Y",
+          "browser": "TOR",
+          "product": "iphoneXSMax",
+          "mincost": "5000",
+          "maxcost": "50000"
+        },
+        {
+          "runmode": "Y",
+          "browser": "Brave",
+          "product": "Personal Computer",
+          "mincost": "800",
+          "maxcost": "80000"
+        }
+      ]
+    },
+    {
+      "testname": "ProductOperationTest",
+      "data": [
+        {
+          "runmode": "Y",
+          "browser": "chrome",
+          "product": "MacBook",
+          "operation":"Remove"
+        },
+        {
+          "runmode": "Y",
+          "browser": "TOR",
+          "product": "iphoneXSMax",
+          "operation":"Remove"
+          
+        },
+        {
+          "runmode": "Y",
+          "browser": "Brave",
+          "product": "Personal Computer",
+          "operation":"Remove"
+        }
+      ]
+    }
+  ]
+}
