@@ -45,5 +45,6 @@ public class readJsonData {
 
         // Print the value of the "browser" key in the first object
         System.out.println(secondData.get("browser"));
+        
     }
 }
